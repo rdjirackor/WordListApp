@@ -17,7 +17,7 @@ const WordList = () => {
         setWordList(response.data);
         setLoading(false);
         } catch (error) {
-      setError('An error occurred while fetching data.');
+      setError('An error occurred while I was fetching the data.');
       setLoading(false);
     }
   };
@@ -33,7 +33,7 @@ const WordList = () => {
       <View style={styles.loadingContainer}>
         <ActivityIndicator size="large" color="#007AFF" />
         <Text style={styles.loadingText}>Fetching Words...</Text>
-        <Text style={styles.loadingDescription}>Please wait a moment while we find some amazing words for you.</Text>
+        <Text style={styles.loadingDescription}>Please wait a moment while I search for some groovy words...</Text>
       </View>
     );
   }
