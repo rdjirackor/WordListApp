@@ -5,6 +5,7 @@ import WordList from './WordList';
 const App = () => {
   return (
     <View style={styles.container}>
+      
       <WordList />
     </View>
   );
